@@ -1,0 +1,51 @@
+I'm doing this assignment from company laptop as my system is facing some technical issues i can't send any files out of this laptop so here i'm sharing git link
+
+//Assignment-1
+let fruits = ['apple','banana','orange'];
+fruits.pop();
+console.log(fruits);
+fruits.push('grape');
+console.log(fruits);
+fruits[1] = 'Pear';
+console.log('fruits');
+
+//output-1:
+[ 'apple', 'banana' ]
+[ 'apple', 'banana', 'grape' ]
+fruits
+
+
+//Assignment-2
+const person = {
+  name:"John",
+  age:30,
+  city:"New York"
+};
+console.log(person);
+person.job='Engineer';
+delete person.age;
+console.log(person);
+person.city = 'San Francisco';
+console.log(person);
+
+//output-2:
+{ name: 'John', age: 30, city: 'New York' }
+{ name: 'John', city: 'New York', job: 'Engineer' }
+{ name: 'John', city: 'San Francisco', job: 'Engineer' }
+
+//Assignment-3:
+const cars = [];
+cars.push({make:'Toyota',model:'Camry',year:2018});
+console.log(cars);
+cars.shift();
+console.log(cars);
+cars.push({make:'Honda',model:'Civic',year:2020});
+console.log(cars);
+cars[0].model='Accord';
+console.log(cars);
+
+output:
+[ { make: 'Toyota', model: 'Camry', year: 2018 } ]
+[]
+[ { make: 'Honda', model: 'Civic', year: 2020 } ]
+[ { make: 'Honda', model: 'Accord', year: 2020 } ]
